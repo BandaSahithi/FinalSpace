@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+#id1{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:black;
+}
+
+#id2{
+  color: red;
+}
+
+.char-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.character{
+  background-color:lightskyblue;
+border-radius: 20px;
+box-shadow: 0 3px 10px rgba(100, 100, 100, 0.5);
+margin: 8px;
+padding: 15px;
+height:300px;
+width:200px;
+text-align: center;
+
+}
+.img-container{
+  height:50%;
+}
+.info{
+  height:50%;
+}
